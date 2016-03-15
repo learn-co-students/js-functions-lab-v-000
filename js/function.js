@@ -10,6 +10,6 @@ function happyAnyHoliday(holiday, name){
   return "Happy " + holiday + " " + name;
 }
 
-function holidayCountDown(holiday, days){
+function holidayCountDown(days, holiday){
   return "It's " + days + " days till " + holiday;
 }
