@@ -23,7 +23,7 @@ var happyHolidaysTo = function(name) {
   if (typeof name === "undefined") {
     name = "you";
   }
-  return "Happy Holidays," + " " + name + "!";
+  return "Happy holidays," + " " + name + "!";
 };
 
 //3a) happyHolidayTo declaration
