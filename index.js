@@ -1,19 +1,19 @@
 // write your code below!
-function happyHolidays () {
+function happyHolidays() {
   return "Happy holidays!";
 }
 
-function happyHolidaysTo (name) {
+function happyHolidaysTo(name) {
   var phrase = happyHolidays().replace(happyHolidays().charAt(6),"H").slice(0,-1) + `, ${name}`;
   return phrase;
 }
 
-function happyHolidayTo (holiday, name) {
+function happyHolidayTo(holiday, name) {
   var phrase = `Happy ${holiday}, ${name}`;
-  return phrase
+  return phrase;
 }
 
-function holidayCountdown (holiday, days) {
+function holidayCountdown(holiday, days) {
   var phrase = `It's ${days} days until ${holiday}!`;
   return phrase;
 }
