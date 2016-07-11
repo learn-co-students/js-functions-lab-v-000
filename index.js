@@ -4,16 +4,17 @@ function happyHolidays() {
 }
 
 function happyHolidaysTo(name) {
-  var phrase = happyHolidays().replace(happyHolidays().charAt(6),"H").slice(0,-1) + `, ${name}`;
-  return phrase;
+  // var phrase = "Happy holidays" + `, ${name}`;
+  // return phrase;
+  return `Happy holidays, ${name}!`;
 }
 
 function happyHolidayTo(holiday, name) {
-  var phrase = `Happy ${holiday}, ${name}`;
+  var phrase = `Happy ${holiday}, ${name}!`;
   return phrase;
 }
 
 function holidayCountdown(holiday, days) {
-  var phrase = `It's ${days} days until ${holiday}!`;
+  var phrase = "It's "+`${days}`+"days until"+` ${holiday}!`;
   return phrase;
 }
