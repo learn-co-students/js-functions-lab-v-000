@@ -15,6 +15,6 @@ function happyHolidayTo(holiday, name) {
 }
 
 function holidayCountdown(holiday, days) {
-  var phrase = "It's "+`${days}`+"days until"+` ${holiday}!`;
+  var phrase = "It's "+`${days}`+" days until"+` ${holiday}!`;
   return phrase;
 }
